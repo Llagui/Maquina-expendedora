@@ -71,7 +71,17 @@ public class MaquinaExpendedoraSimple {
         balanceClienteActual = 0;
     }
     
+    /**
+     * devuelve el dinero acumulado
+     */
     public int getDineroAcumulado() {
         return totalDineroAcumulado;
+    }
+    
+    /**
+     * Da el precio al nuevo billete
+     */
+    public void setPrecioBillete(int nuevoPrecio){
+        precioBillete = nuevoPrecio;
     }
 }
